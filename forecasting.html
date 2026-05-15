@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117091548-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-117091548-1');
+        </script>
+
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-9463984700780669",
+                enable_page_level_ads: true
+            });
+        </script>
+
+        <title>Forecasting</title>
+        <meta name="msvalidate.01" content="3EEBD9006AA36E19F3501CC431FCA6CB" />
+        <meta name="google-site-verification" content="1yHIX_e0msIoLM7X37SmQV0CzSmDRvgYASeT-gAQJe4" />
+        <meta charset="UTF-8">
+        <meta name="description" content="The author, Samuel Chukwuemeka aka Samdom For Peace gives all credit to Our Lord, Jesus Christ. We are experts in forecasting calculators." />
+        <meta name="keywords" content="samuel chukwuemeka, samuel dominic chukwuemeka, samdom for peace, math, mathematics,
+              statistics, forecasting, forecasting models, forecasting techniques, period,
+              value, forecast, error, mean absolute deviation, mean square error, averages,
+              simple averages, moving averages, weighted moving averages, index numbers,
+              time-series forecasting, smoothing techniques, naive forecasting models, 
+              averaging models, exponential smoothing, trend analysis, seasonal effects, 
+              autocorrelation, autoregression, variables, price index"/>      
+        <link href="forecasting.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+    <body>
+        <!-- Header / Home-->
+        <!-- Forecasting Models and Techniques -->
+        <header class="w3-container w3-padding-16 yellow" id="home">
+            <div class="w3-content w3-center">
+                <h1><b>Forecasting Models and Techniques</b></h1>
+       
+                <p class="quote" id="messages">
+                    <q>Now to Him who is able to keep us from stumbling, and to present us 
+                      unblemished in His glorious presence with great joy; to the only God our Father
+                      be glory, majesty, authority, and dominion through Jesus Christ our Lord;
+                      before all ages, and now, and for all eternity. Amen.
+                    </q> - Jude 1:24 - 25
+                </p>
+                
+                <p class="quote"><q>The Joy of a Teacher is the Success of his Students.</q> - Samuel Dominic Chukwuemeka</p>
+            </div>
+        </header>
+
+        <!-- Navbar (sticky bottom) -->
+        <div class="w3-bottom w3-hide-small">
+            <div class="w3-bar green w3-center w3-padding-small">
+                <a href="#home" style="width:25%" class="w3-bar-item w3-button w3-hover-yellow">Home</a>
+                <a href="#forecasting" style="width:25%" class="w3-bar-item w3-button w3-hover-yellow">Forecasting</a>
+                <a href ="https://chukwuemekasamuel.weebly.com/" target="_blank" style="width:25%" class="w3-bar-item w3-button w3-hover-yellow">Contact Us</a>
+                <a href="http://www.chukwuemekasamuel.com/portfolios.html" target="_blank" style="width:25%" class="w3-bar-item w3-button w3-hover-yellow">Other Calculators</a>
+            </div>
+        </div>
+
+        
+
+        <!-- Links to Forecasting Models and Techniques -->
+        <p class="w3-center w3-padding-16" id="forecasting">
+            <a href="#meanAbsoluteDeviation" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Mean Absolute Deviation</a>
+            <a href="#meanSquareError" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Mean Square Error</a>
+            <a href="#simpleAverages" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Simple Averages</a>
+            <a href="#movingAverages" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Moving Averages</a>
+            <a href="#exponentialSmoothing" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Exponential Smoothing</a>
+            <a href="#indexNumbers" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Index Numbers</a>
+        </p>
+        
+        
+
+        <!-- Greetings -->
+        <div class="w3-container w3-padding-64 bisque w3-center">
+            <script async src='https://cse.google.com/cse.js?cx=partner-pub-9463984700780669:2824997403'></script><div class="gcse-searchbox-only"></div>
+            <div class="w3-content">          
+                <div class="w3-row">
+                    <a href="https://www.samuelchukwuemeka.com/" target="_blank">
+                    <img src="images/samuelchukwuemeka.jpg" alt="Samdom For Peace" title="Samuel Chukwuemeka aka Samdom For Peace" class="w3-image w3-right w3-hide-small" width="500" height="500">
+                    </a>
+                    <p><span id="greetings"></span> I greet you this day, <script>document.write(Date()+".");</script></p>  
+                    <p>Please solve your questions first, before checking your answers with the calculators.</p>
+                    <p>I wrote the codes for these calculators using Javascript, a client-side scripting language. Please use the latest Internet browsers. The calculators should work. 
+                    <p>Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. Should you need to <a href="#contact">contact</a> me, please use the <a href="#contact">form</a> at the bottom of the page. Thank you for visiting!!!
+                        <br>
+                    <p><strong>Samuel Dominic Chukwuemeka</strong> (SamDom For Peace) <span style="font-size: medium">B.Eng., A.A.T, M.Ed., M.S</span></p>
+                </div>                   
+            </div>
+        </div>
+        
+        <div class="w3-center">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- HomePage_728*90 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9463984700780669"
+                 data-ad-slot="6720652961"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>  
+            
+        <!-- Calculate the MAD -->
+        <div class="w3-container green w3-center" id="meanAbsoluteDeviation">
+            <h3><u>Given:</u> Datasets of Actual Values and Forecast Values</h3>
+            <h3><u>To calculate:</u> Mean Absolute Deviation (MAD) (Show all Steps)</h3>
+        </div>    
+        <div class="w3-container bisque w3-center">
+            <form id="formMeanAbsoluteDeviation">
+                <p><label for="actualMAD">Actual = </label><textarea name="actualMAD" id="actualMAD" placeholder="Please type each value in a new line. No commas. No spaces. No period. No extra lines." required></textarea></p>
+                <p><label for="forecastMAD">Forecast = </label><textarea name="forecastMAD" id="forecastMAD" placeholder="Please type each value in a new line. No commas. No spaces. No period. No extra lines. *For the first value, please put the first value of the Actual data. Do not leave blank.*" required></textarea></p>
+
+                <p><button onclick="formMeanAbsoluteDeviation()">Calculate</button>
+                    <input type="reset" value="Reset">
+                </p>
+
+                <p><label for="errorMAD">Error = </label><textarea name="errorMAD" id="errorMAD" placeholder="Commas are used to separate the values. The count is 1 less than the count for the actual values." readonly></textarea></p>
+                
+                <p><label for="absoluteValueErrorMAD">|Error| = </label><textarea name="absoluteValueErrorMAD" id="absoluteValueErrorMAD" placeholder="Commas are used to separate the values. The count is 1 less than the count for the actual values." readonly></textarea></p>
+
+                <p><label for="sumAbsoluteValueErrorMAD">&Sigma; |Error| = </label><input type="text" name="sumAbsoluteValueErrorMAD" id="sumAbsoluteValueErrorMAD" class="medium" readonly></p>
+
+                <p><label for="numberForecastMAD">Number of Forecasts = </label><input type="text" name="numberForecastMAD" id="numberForecastMAD" class="medium" readonly></p>
+
+                <p><label for="valueMAD">MAD = </label><input type="text" name="valueMAD" id="valueMAD" class="medium" readonly></p>        
+            </form>
+        </div>
+        
+        <table class="ads">
+            <tr>
+                <th class="ads">
+                    <div class="w3-center">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Financial Calculator Website - Square -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-9463984700780669"
+                             data-ad-slot="6800762526"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </th>
+                <th class="ads">
+                    <div class="w3-center">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Financial Calculator Website - Square -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-9463984700780669"
+                             data-ad-slot="6800762526"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </th>
+            </tr>
+        </table>
+                        
+        <!-- Calculate the MSE -->
+        <div class="w3-container green w3-center" id="meanSquareError">
+            <h3><u>Given:</u> Datasets of Actual Values and Forecast Values</h3>
+            <h3><u>To calculate:</u> Mean Square Error (MSE) (Show all Steps)</h3>
+        </div>    
+        <div class="w3-container bisque w3-center">
+            <form id="formMeanSquareError">
+                <p><label for="actualMSE">Actual = </label><textarea name="actualMSE" id="actualMSE" placeholder="Please type each value in a new line. No commas. No spaces. No period. No extra lines." required></textarea></p>
+                <p><label for="forecastMSE">Forecast = </label><textarea name="forecastMSE" id="forecastMSE" placeholder="Please type each value in a new line. No commas. No spaces. No period. No extra lines. *For the first value, please put the first value of the Actual data. Do not leave blank.*" required></textarea></p>
+
+                <p><button onclick="formMeanSquareError()">Calculate</button>
+                    <input type="reset" value="Reset">
+                </p>
+
+                <p><label for="errorMSE">Error = </label><textarea name="errorMSE" id="errorMSE" placeholder="Commas are used to separate the values. The count is 1 less than the count for the actual values." readonly></textarea></p>
+                
+                <p><label for="squareErrorMSE">Error<sup>2</sup> = </label><textarea name="squareErrorMSE" id="squareErrorMSE" placeholder="Commas are used to separate the values. The count is 1 less than the count for the actual values." readonly></textarea></p>
+
+                <p><label for="sumSquareErrorMSE">&Sigma; Error<sup>2</sup> = </label><input type="text" name="sumSquareErrorMSE" id="sumSquareErrorMSE" class="medium" readonly></p>
+
+                <p><label for="numberForecastMSE">Number of Forecasts = </label><input type="text" name="numberForecastMSE" id="numberForecastMSE" class="medium" readonly></p>
+
+                <p><label for="valueMSE">MSE = </label><input type="text" name="valueMSE" id="valueMSE" class="medium" readonly></p>        
+            </form>
+        </div>
+                           
+        <div class="w3-center">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- HomePage_728*90 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9463984700780669"
+                 data-ad-slot="6720652961"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>  
+                        
+        <!-- Calculate Simple Moving Averages -->
+        <div class="w3-container green w3-center" id="simpleAverages">
+            <h3><u>Given:</u> Periods and Dataset</h3>
+            <h3><u>To calculate:</u> A Specific Period Moving Average</h3>
+        </div>    
+        <div class="w3-container bisque w3-center">
+            <form id="simpleMovingAverages">
+                <p><label for="actualMSE">Actual = </label><textarea name="actualMSE" id="actualMSE" placeholder="Please type each value in a new line. No commas. No spaces. No period. No extra lines." required></textarea></p>
+                <p><label for="forecastMSE">Forecast = </label><textarea name="forecastMSE" id="forecastMSE" placeholder="Please type each value in a new line. No commas. No spaces. No period. No extra lines. *For the first value, please put the first value of the Actual data. Do not leave blank.*" required></textarea></p>
+
+                <p><button onclick="simpleMovingAverages()">Calculate</button>
+                    <input type="reset" value="Reset">
+                </p>
+
+                <p><label for="errorMSE">Error = </label><textarea name="errorMSE" id="errorMSE" placeholder="Commas are used to separate the values. The count is 1 less than the count for the actual values." readonly></textarea></p>
+                
+                <p><label for="squareErrorMSE">Error<sup>2</sup> = </label><textarea name="squareErrorMSE" id="squareErrorMSE" placeholder="Commas are used to separate the values. The count is 1 less than the count for the actual values." readonly></textarea></p>
+
+                <p><label for="sumSquareErrorMSE">&Sigma; Error<sup>2</sup> = </label><input type="text" name="sumSquareErrorMSE" id="sumSquareErrorMSE" class="medium" readonly></p>
+
+                <p><label for="numberForecastMSE">Number of Forecasts = </label><input type="text" name="numberForecastMSE" id="numberForecastMSE" class="medium" readonly></p>
+
+                <p><label for="valueMSE">MSE = </label><input type="text" name="valueMSE" id="valueMSE" class="medium" readonly></p>        
+            </form>
+        </div>
+                            
+        <table class="ads">
+            <tr>
+                <th class="ads">
+                    <div class="w3-center">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Financial Calculator Website - Square -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-9463984700780669"
+                             data-ad-slot="6800762526"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </th>
+                <th class="ads">
+                    <div class="w3-center">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Financial Calculator Website - Square -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-9463984700780669"
+                             data-ad-slot="6800762526"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </th>
+            </tr>
+        </table>
+                
+        
+        <!-- Footer -->
+        <footer class="w3-center yellow w3-padding-64">
+            <a href="https://plus.google.com/100168437493108865870/posts?partnerid=gplp0" title="Add to circles" target="_blank"><img src="images/googleplus.png" alt="Add to circles" /></a>
+                <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel" /></a>             
+                <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img src="images/twitter.png" alt="Follow me on twitter" /></a>
+                <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"/></a>
+                <div id="google_translate_element"></div><script type="text/javascript">
+                        function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-117091548-1'}, 'google_translate_element');
+                        }
+                </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2018&nbsp;<a href="https://www.samuelchukwuemeka.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>
+        </footer>
+        
+        <div class="w3-center">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Solved Examples -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9463984700780669"
+                 data-ad-slot="4456451349"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        
+               
+        <script src="scripts/messages.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="scripts/meanAbsoluteDeviation.js"></script>
+        <script src="scripts/meanSquareError.js"></script>
+
+    </body>
+</html>
